@@ -12,15 +12,15 @@ x=(b2-b1)/(k1-k2)
 
 */
 
-int b1 = 0, k1 = 0, b2 = 0, k2 =0;
+double b1 = 0, k1 = 0, b2 = 0, k2 =0;
 Console.Write($"Введите b1=");
-b1 = int.Parse(Console.ReadLine());
+b1 = double.Parse(Console.ReadLine());
 Console.Write($"Введите k1=");
-k1 = int.Parse(Console.ReadLine());
+k1 = double.Parse(Console.ReadLine());
 Console.Write($"Введите b2=");
-b2 = int.Parse(Console.ReadLine());
+b2 = double.Parse(Console.ReadLine());
 Console.Write($"Введите k2=");
-k2 = int.Parse(Console.ReadLine());
+k2 = double.Parse(Console.ReadLine());
 
 // найдем х:
 double x = 0 , y = 0;
