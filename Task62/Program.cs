@@ -10,7 +10,23 @@ k1*x+b1=k2*x+b2
 x(k1-k2)=b2-b1
 x=(b2-b1)/(k1-k2)
 
-x=(b1-y)/k1
-x=(b2-y)/k2
 */
+
+int b1 = 0, k1 = 0, b2 = 0, k2 =0;
+Console.Write($"Введите b1=");
+b1 = int.Parse(Console.ReadLine());
+Console.Write($"Введите k1=");
+k1 = int.Parse(Console.ReadLine());
+Console.Write($"Введите b2=");
+b2 = int.Parse(Console.ReadLine());
+Console.Write($"Введите k2=");
+k2 = int.Parse(Console.ReadLine());
+
+// найдем х:
+double x = 0 , y = 0;
+x = (b2 - b1) / (k1 - k2);
+y = k1 * x + b1;
+
+Console.WriteLine($"Значение Х: {b2} {b1} {k1} {k2} {x}");
+
 
