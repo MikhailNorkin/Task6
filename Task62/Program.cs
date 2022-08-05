@@ -27,7 +27,7 @@ double x = 0 , y = 0;
 x = (b2 - b1) / (k1 - k2);
 y = k1 * x + b1;
 
-Console.WriteLine($"Значение Х: {x}");
-Console.WriteLine($"Значение Y: {y}");
+Console.WriteLine($"b1 = {b1}, k1 = {k1}, b2 = {b2}, k2 = {k2} -> ({x},{y})");
+
 
 
